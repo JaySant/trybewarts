@@ -40,7 +40,13 @@ main {
 #evaluation-form{
     display: flex;
     width: 675px;
-    justify-content: center;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
     
 }
     
+#trybewarts-forms-logo{
+    height: 500px;
+}
