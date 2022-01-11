@@ -22,43 +22,61 @@
     <main>
         <form action="" method="get" id="evaluation-form">
             <h1>Formulário de Avaliação</h1>
-            
+            <div id="family">
+                <label id="label-family" for="">Qual sua família?
+                    <label for="front">
+                    <input type="radio" name="family" id="front">Frontend
+                    </label>
+                    <label for="back">
+                        <input type="radio" name="family" id="back">Backend
+                    </label>
+                    <label for="full">
+                        <input type="radio" name="family" id="full">FullStack
+                    </label>
+                </label>
+            </div>
+            <div id="content">
+                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?
+                    <label for="hofs">
+                        <input type="checkbox" id="hofs">HoFs
+                    </label>
+                    <label for="jest">
+                        <input type="checkbox" id="jest">Jest
+                    </label>
+                    <label for="promises">
+                        <input type="checkbox" id="promises">Promises
+                    </label>
+                    <label for="react">
+                        <input type="checkbox" id="react">React
+                    </label>
+                    <label for="sql">
+                        <input type="checkbox" id="sql">SQL
+                    </label>
+                    <label for="python">
+                        <input type="checkbox" id="python">Python
+                    </label>
+                </label>
+            </div>
+            <div id="rate">
+                <label id="label-rate" for="">Como você avalia a Trybewarts?
+                    <input type="radio" name="rate">1
+                    <input type="radio" name="rate">2
+                    <input type="radio" name="rate">3
+                    <input type="radio" name="rate">4
+                    <input type="radio" name="rate">5
+                    <input type="radio" name="rate">6
+                    <input type="radio" name="rate">7
+                    <input type="radio" name="rate">8
+                    <input type="radio" name="rate">9
+                    <input type="radio" name="rate">10
+                </label>
+            </div>
+            <div id="comment">
+                <label class="textarea" for="text">Deixe seu comentário:
+                    <textarea name="" id="text" cols="30" rows="10" maxlength="500"></textarea>
+                </label>
+            </div>    
         </form>
-        <div id="family">
-            <label id="label-family" for="">Qual sua família?
-                <label for="front">
-                <input type="radio" name="family" id="front">Frontend
-                </label>
-                <label for="back">
-                    <input type="radio" name="family" id="back">Backend
-                </label>
-                <label for="full">
-                    <input type="radio" name="family" id="full">FullStack
-                </label>
-            </label>
-        </div>
-        <div id="content">
-            <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?
-                <label for="hofs">
-                    <input type="checkbox" id="hofs">HoFs
-                </label>
-                <label for="jest">
-                    <input type="checkbox" id="jest">Jest
-                </label>
-                <label for="promises">
-                    <input type="checkbox" id="promises">Promises
-                </label>
-                <label for="react">
-                    <input type="checkbox" id="react">React
-                </label>
-                <label for="sql">
-                    <input type="checkbox" id="sql">SQL
-                </label>
-                <label for="python">
-                    <input type="checkbox" id="python">Python
-                </label>
-            </label>
-        </div>        
         <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo">
     </main>
     <script src="script.js"></script>
