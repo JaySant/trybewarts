@@ -9,10 +9,11 @@
     background-color: rgb(50, 167, 145);
     justify-content: space-between;
     padding: 1%;
+    align-items: center;
 }
 
 .header img {
-    width: 5%;
+    width: 4%;
 }
 
 .trybewarts-login {
@@ -20,6 +21,7 @@
 
 }
 
+ /* Formulario  */
 main {
     display: flex;
     justify-content: center;
@@ -32,3 +34,4 @@ main {
     justify-content: center;
     
 }
+    
