@@ -22,10 +22,18 @@
     <main>
         <form action="" method="get" id="evaluation-form">
             <h1>Formulário de Avaliação</h1>
-            <input type="text" id="input-name" name="Nome" placeholder="Nome" >
-            <input type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome">
-            <input type="email" id="input-email" name="emailform" placeholder="Email">
-            
+                <div id="form-initial">
+                    <input type="text" id="input-name" name="Nome" placeholder="Nome" >
+                    <input type="text" id="input-lastname" name="sobrenome" placeholder="Sobrenome">
+                    <input type="email" id="input-email" name="emailform" placeholder="Email">
+                        <select id="house" name="house">
+                            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                        </select>
+                </div>
+                
             <div id="family">
                 <label id="label-family" for="">Qual sua família?
                     <label for="front">
