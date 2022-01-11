@@ -30,3 +30,17 @@
     display: flex;
     flex-direction: column;
 }
+ /* Formulario  */
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#evaluation-form{
+    display: flex;
+    width: 675px;
+    justify-content: center;
+    
+}
+    
