@@ -21,6 +21,15 @@
 
 }
 
+#label-family {
+    display: flex;
+    flex-direction: column;
+}
+
+#label-content  {
+    display: flex;
+    flex-direction: column;
+}
  /* Formulario  */
 main {
     display: flex;
