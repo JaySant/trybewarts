@@ -1,61 +1,77 @@
 * {
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-.header{
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    justify-content: space-between;
-    padding: 1%;
-    align-items: center;
+body {
+  background-color: rgb(244, 250, 249);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
 }
 
 .header img {
-    width: 4%;
+  width: 3%;
 }
 
 .trybewarts-login {
-    display: flex;
-
+  display: flex;
 }
 
 #label-family {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-#label-content  {
-    display: flex;
-    flex-direction: column;
+#label-content {
+  display: flex;
+  flex-direction: column;
 }
- /* Formulario  */
+
+/* Formulario  */
 main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
 }
 
-#evaluation-form{
-    display: flex;
-    width: 675px;
-    height: 200px;
-    flex-direction: column;
-    padding: 20px;
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(242, 242, 242);
+  border-radius: 7px;
+  margin-left: 1em;
 }
 
-#trybewarts-forms-logo{
-    height: 500px;
-
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-top: 100px;
+  background-color: rgb(47, 72, 88);
 }
 
-input{
-    border: 1px solid whitesmoke;
-    border-radius: 2px;
-    padding: 10px;
-    margin: 1px;
+input {
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 2px;
 }
 
-#house{
-    border-radius: 1px solid whitesmoke;
+#house {
+  border-radius: 1px solid whitesmoke;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  padding: 20px;
+  border-top: 1px solid grey;
 }
