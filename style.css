@@ -31,7 +31,7 @@
   flex-direction: column;
 }
 
- /* Formulario  */
+/* Formulario  */
 main {
   display: flex;
   justify-content: center;
@@ -44,32 +44,20 @@ main {
   align-items: center;
   flex-direction: column;
 }
-    
+
 #trybewarts-forms-logo {
   height: 500px;
   display: flex;
   justify-content: center;
 }
 
-#evaluation-form {
-  display: flex;
-  width: 675px;
-  height: 200px;
-  flex-direction: column;
-  padding: 20px;
-}
-
-#trybewarts-forms-logo {
-  height: 500px;
-}
-
-input{
+input {
   border: 1px solid whitesmoke;
   border-radius: 2px;
   padding: 10px;
   margin: 1px;
 }
 
-#house{
+#house {
   border-radius: 1px solid whitesmoke;
 }
