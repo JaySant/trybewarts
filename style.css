@@ -30,6 +30,10 @@
   flex-direction: column;
 }
 
+#rate {
+  display: flex;
+}
+
 /* Formulario  */
 main {
   display: flex;
