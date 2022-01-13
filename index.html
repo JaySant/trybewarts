@@ -32,20 +32,25 @@
                         <option value="Corvinode" id="corvinode-house">Corvinode</option>
                         <option value="Pytherina" id="pytherina-house">Pytherina</option>
                     </select>
-            </div>             
-            <div id="label-family">Qual sua família?
-                <label for="front">
-                    <input type="radio" name="family" value="Frontend" id="front">Frontend
-                </label>
-                <label for="back">
-                    <input type="radio" name="family" value="Backend" id="back">Backend
-                </label>
-                <label for="full">
-                    <input type="radio" name="family" value="FullStack" id="full">FullStack
-                </label>
             </div>
-            <div id="content">
-                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?
+            
+            <hr>
+
+            <div id="family">
+                <label id="label-family">Qual sua família?</label>
+                    <label for="front">
+                        <input type="radio" name="family" value="Frontend" id="front">Frontend
+                    </label>
+                    <label for="back">
+                        <input type="radio" name="family" value="Backend" id="back">Backend
+                    </label>
+                    <label for="full">
+                        <input type="radio" name="family" value="FullStack" id="full">Fullstack
+                    </label>
+            </div>
+
+            <div>
+                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
                     <label for="hofs">
                         <input type="checkbox" value="HoFs" id="hofs">HoFs
                     </label>
@@ -64,10 +69,12 @@
                     <label for="python">
                         <input type="checkbox" value="Python" id="python">Python
                     </label>
-                </label>
             </div>
-            <div id="rate">
-                <label id="label-rate" for="">Como você avalia a Trybewarts?
+
+            <hr>
+
+            <div>
+                <label id="label-rate">Como você avalia a Trybewarts?</label>
                     <input type="radio" name="rate">1
                     <input type="radio" name="rate">2
                     <input type="radio" name="rate">3
@@ -78,8 +85,8 @@
                     <input type="radio" name="rate">8
                     <input type="radio" name="rate">9
                     <input type="radio" name="rate">10
-                </label>
             </div>
+
             <div id="comment">
                 <label class="textarea" for="text">Deixe seu comentário:
                     <textarea name="" id="text" cols="30" rows="10" maxlength="500"></textarea>

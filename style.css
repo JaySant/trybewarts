@@ -20,7 +20,7 @@
   display: flex;
 }
 
-#label-family {
+#family {
   display: flex;
   flex-direction: column;
 }
