@@ -109,11 +109,12 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
-  padding: 40px;
+  padding: 50px;
   background-color: rgba(244, 244, 237, 1);
   border-radius: 7px;
   font-family: Bree serif, serif;
-  margin: 60px 100px 60px 400px;
+  margin: 50px;
+  
 }
 
 #title-form {
