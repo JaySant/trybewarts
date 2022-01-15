@@ -103,7 +103,7 @@ main {
   display: flex;
   justify-content: space-around;
   background-color: rgb(50, 167, 145);
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 #evaluation-form {
@@ -182,24 +182,17 @@ main {
   border-radius: 1px solid whitesmoke;
 }
 
-/* .logo-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  background-color: rgba(47, 72, 88, 0.747);
-  width: 40%;
-} */
-
 #rodapé {
   display: flex;
   justify-content: center;
-  padding: 30px 20px 50px;
+  position: relative;
+  padding: 30px 20px 15px;
   border-top: 1px solid rgba(251, 175, 45, 0.527);
   background-color: rgba(74, 48, 109, 1);
   font-family: Bree serif, serif;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.87);
+  bottom: 20px;
 }
 
 .layout {
