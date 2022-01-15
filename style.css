@@ -76,7 +76,7 @@ html {
   background: rgb(251, 176, 45);
   border: 2px solid rgb(251, 176, 45);
   box-sizing: border-box;
-  box-shadow: 2px 2px 5px;
+  box-shadow: 3px 3px 1px;
   border-radius: 10px;
   width: 140px;
   height: 40px;
@@ -103,6 +103,7 @@ main {
   display: flex;
   justify-content: space-around;
   background-color: rgb(50, 167, 145);
+  padding-bottom: 30px;
 }
 
 #evaluation-form {
@@ -113,8 +114,56 @@ main {
   background-color: rgba(244, 244, 237, 1);
   border-radius: 7px;
   font-family: Bree serif, serif;
-  margin: 50px;
-  
+  margin: 50px 50px 50px 300px;
+  z-index: 1;
+}
+
+/* Input formulário */
+#input-name {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgb(251, 176, 45);
+  border-radius: 10px;
+}
+
+#input-name::placeholder {
+  font-family: Bree serif, serif;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(36, 54, 50);
+}
+
+#input-lastname {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(251, 176, 45);
+  border-radius: 10px;
+}
+
+#input-lastname::placeholder {
+  font-family: Bree serif, serif;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(36, 54, 50);
+}
+
+#input-email {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid rgb(251, 176, 45);
+  border-radius: 10px;
+}
+
+#input-email::placeholder {
+  font-family: Bree serif, serif;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(36, 54, 50);
 }
 
 #title-form {
@@ -125,6 +174,8 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
   margin: 150px;
+  position: relative;
+  bottom: 80px;
 }
 
 #house {
@@ -143,8 +194,16 @@ main {
 #rodapé {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  border-top: 1px solid grey;
+  padding: 30px 20px 50px;
+  border-top: 1px solid rgba(251, 175, 45, 0.527);
   background-color: rgba(74, 48, 109, 1);
+  font-family: Bree serif, serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.87);
 }
 
+.layout {
+  display: block;
+  position: absolute;
+  bottom: 65px;
+}
