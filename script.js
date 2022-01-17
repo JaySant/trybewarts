@@ -18,7 +18,7 @@ loginButton.addEventListener('click', login);
 submitButton.disabled = true;
 
 function checkAgreement(event) {
-  if (event.target.checked)  {
+  if (event.target.checked) {
     submitButton.disabled = false;
   } else {
     submitButton.disabled = true;
