@@ -5,9 +5,7 @@ const agreement = document.querySelector('#agreement');
 const submitButton = document.querySelector('#submit-btn');
 const textarea = document.querySelector('#textarea');
 
-function login(event) {
-  event.preventDefault();
-
+function login() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
     alert('Olá, Tryber!');
   } else {
@@ -19,8 +17,8 @@ loginButton.addEventListener('click', login);
 
 submitButton.disabled = true;
 
-function checkAgreement (event) {
-  if(event.target.checked) {
+function checkAgreement(event) {
+  if (event.target.checked)  {
     submitButton.disabled = false;
   } else {
     submitButton.disabled = true;
@@ -29,11 +27,11 @@ function checkAgreement (event) {
 
 agreement.addEventListener('change', checkAgreement);
 
-function counterText () {
+function counterText() {
   const limit = 500;
   if (textarea.value.length <= 500 && textarea.value.length > -1) {
     const counter = document.querySelector('#counter');
-    counter.innerText = limit - textarea.value.length
+    counter.innerText = limit - textarea.value.length;
   }
 }
 
